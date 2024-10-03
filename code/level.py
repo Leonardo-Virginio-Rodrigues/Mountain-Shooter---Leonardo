@@ -18,6 +18,7 @@ class Level:
         self.game_mode = game_mode
         self.entity_list: list[Entity] = []
         self.entity_list.extend(EntityFactory.get_entity('level1_bg'))
+        self.entity_list.append(EntityFactory.get_entity('Player1'))
         self.timeout = 20000
 
     def run(self, ):
@@ -25,7 +26,7 @@ class Level:
         pygame.mixer_music.play(-1)
         clock = pygame.time.Clock()
         while True:
-            clock.tick(30)
+            clock.tick(60)
             for ent in self.entity_list:
                 self.window.blit(source=ent.surf, dest=ent.rect)
                 ent.move()
