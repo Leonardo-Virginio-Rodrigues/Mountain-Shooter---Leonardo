@@ -19,3 +19,5 @@ class Entity(ABC):
     def move(self, ):
 
         pass
+
+
