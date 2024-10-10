@@ -7,6 +7,24 @@ COLOR_WHITE = 255,255,255
 #E
 EVENT_ENEMY = pygame.USEREVENT + 1
 
+ENTITY_DAMAGE = {
+    'level1_bg0': 0,
+    'level1_bg1': 0,
+    'level1_bg2': 0,
+    'level1_bg3': 0,
+    'level1_bg4': 0,
+    'level1_b5':  0,
+    'level1_b6':  0,
+    'Player1': 1,
+    'Player1Shot': 25,
+    'Player2': 1,
+    'Player2Shot': 20,
+    'Enemy1': 1,
+    'Enemy1Shot': 20,
+    'Enemy2': 1,
+    'Enemy2Shot': 15,
+}
+
 ENTITY_HEALTH={
     'level1_bg0': 999,
     'level1_bg1': 999,
