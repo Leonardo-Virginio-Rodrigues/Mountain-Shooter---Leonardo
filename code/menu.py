@@ -3,7 +3,8 @@ import pygame.image
 from pygame import Surface, Rect
 from pygame.font import Font
 
-from code.const import WIN_WIDTH, COLOR_ORANGE, COLOR_YELLOW, COLOR_WHITE, MENU_OPTION
+from code.const import WIN_WIDTH, COLOR_ORANGE, COLOR_YELLOW, COLOR_WHITE, MENU_OPTION, COLOR_RED
+
 
 class Menu:
     def __init__(self, window):
@@ -17,8 +18,9 @@ class Menu:
         while True:
             #DRAW IMAGES
             self.window.blit(source=self.surf, dest=self.rect)
-            self.menu_text(50,"Moutain",(COLOR_ORANGE), ((WIN_WIDTH / 2), 70))
-            self.menu_text(50, "Shooter", (COLOR_ORANGE), ((WIN_WIDTH / 2), 120))
+            self.menu_text(50,"Moutain",COLOR_ORANGE, ((WIN_WIDTH / 2), 70))
+            self.menu_text(50, "Shooter", COLOR_ORANGE, ((WIN_WIDTH / 2), 120))
+            self.menu_text(15, "Leonardo Virginio Rodrigues - RU: 4546754", COLOR_RED, (115, 12))
 
             for i in range(len(MENU_OPTION)):
                 if i == menu_option:
