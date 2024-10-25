@@ -35,11 +35,11 @@ ENTITY_DAMAGE = {
     'Player2': 1,
     'Player2Shot': 20,
     'Enemy1': 1,
-    'Enemy1Shot': 20,
+    'Enemy1Shot': 30,
     'Enemy2': 1,
-    'Enemy2Shot': 25,
+    'Enemy2Shot': 30,
     'Enemy3': 2,
-    'Enemy3Shot': 35,
+    'Enemy3Shot': 40,
 
 }
 
@@ -90,23 +90,23 @@ ENTITY_SPEED = {
     'Level3_bg0': 3,
     'Level3_bg1': 4,
     'Level3_bg2': 5,
-    'Player1': 3,
-    'Player1Shot': 1,
-    'Player2': 3,
-    'Player2Shot': 1,
+    'Player1': 2,
+    'Player1Shot': 5,
+    'Player2': 2,
+    'Player2Shot': 5,
     'Enemy1': 2,
-    'Enemy1Shot': 5,
+    'Enemy1Shot': 10,
     'Enemy2': 1,
-    'Enemy2Shot': 2,
-    'Enemy3': 2,
-    'Enemy3Shot': 4,
+    'Enemy2Shot': 12,
+    'Enemy3': 1,
+    'Enemy3Shot': 8,
 }
 
 ENTITY_SHOT_DELAY = {
     'Player1': 20,
     'Player2': 20,
     'Enemy1': 100,
-    'Enemy2': 200,
+    'Enemy2': 125,
     'Enemy3': 75,
 }
 
@@ -187,9 +187,9 @@ SCORE_POS = {'Title': (WIN_WIDTH / 2, 50),
 # T
 TIMEOUT_STEP = 100
 TIMEOUT_LEVEL = {
-    'Level1' : 10000,
-    'Level2' : 10000,
-    'Level3' : 10000,
+    'Level1' : 20000,
+    'Level2' : 40000,
+    'Level3' : 80000,
 }
 
 
