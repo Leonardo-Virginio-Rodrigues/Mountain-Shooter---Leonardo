@@ -1,8 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-from code.const import ENTITY_SPEED, WIN_HEIGHT, ENTITY_SHOT_DELAY
-from code.enemyShot import EnemyShot
-from code.entity import Entity
+from data.code.const import ENTITY_SPEED, WIN_HEIGHT, ENTITY_SHOT_DELAY
+from data.code.enemyShot import EnemyShot
+from data.code.entity import Entity
 
 
 class Enemy(Entity):

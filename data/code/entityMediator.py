@@ -1,9 +1,9 @@
-from code.const import WIN_WIDTH, ENTITY_SPEED
-from code.enemy import Enemy
-from code.enemyShot import EnemyShot
-from code.entity import Entity
-from code.player import Player
-from code.playerShot import PlayerShot
+from data.code.const import WIN_WIDTH, ENTITY_SPEED
+from data.code.enemy import Enemy
+from data.code.enemyShot import EnemyShot
+from data.code.entity import Entity
+from data.code.player import Player
+from data.code.playerShot import PlayerShot
 
 
 class EntityMediator:

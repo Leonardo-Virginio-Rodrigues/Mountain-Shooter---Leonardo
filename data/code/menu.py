@@ -3,17 +3,17 @@ import pygame.image
 from pygame import Surface, Rect
 from pygame.font import Font
 
-from code.const import WIN_WIDTH, COLOR_ORANGE, COLOR_YELLOW, COLOR_WHITE, MENU_OPTION, COLOR_RED
+from data.code.const import WIN_WIDTH, COLOR_ORANGE, COLOR_YELLOW, COLOR_WHITE, MENU_OPTION, COLOR_RED
 
 
 class Menu:
     def __init__(self, window):
         self.window = window
-        self.surf = pygame.image.load('./asset/menu_bg.png').convert_alpha()
+        self.surf = pygame.image.load('./data/asset/menu_bg.png').convert_alpha()
         self.rect = self.surf.get_rect()
     def run(self, ):
         menu_option = 0
-        pygame.mixer_music.load('./asset/music_menu.mp3')
+        pygame.mixer_music.load('./data/asset/music_menu.mp3')
         pygame.mixer.music.set_volume(0.2) 
         pygame.mixer_music.play(-1)
         while True:

@@ -8,13 +8,13 @@ import pygame
 from pygame import Surface
 from pygame.font import Font
 
-from code.const import (COLOR_WHITE, WIN_HEIGHT, MENU_OPTION, EVENT_ENEMY, COLOR_GREEN, COLOR_CYAN, EVENT_TIMEOUT,
+from data.code.const import (COLOR_WHITE, WIN_HEIGHT, MENU_OPTION, EVENT_ENEMY, COLOR_GREEN, COLOR_CYAN, EVENT_TIMEOUT,
                         SPAWN_TIME, TIMEOUT_STEP, TIMEOUT_LEVEL )
-from code.enemy import Enemy
-from code.entity import Entity
-from code.entityFactory import EntityFactory
-from code.entityMediator import EntityMediator
-from code.player import Player
+from data.code.enemy import Enemy
+from data.code.entity import Entity
+from data.code.entityFactory import EntityFactory
+from data.code.entityMediator import EntityMediator
+from data.code.player import Player
 
 
 class Level:
@@ -36,7 +36,7 @@ class Level:
         pygame.time.set_timer(EVENT_TIMEOUT, TIMEOUT_STEP)
 
     def run(self, player_score: list[int]):
-        pygame.mixer_music.load(f'./asset/{self.name}.mp3')
+        pygame.mixer_music.load(f'./data/asset/{self.name}.mp3')
         pygame.mixer_music.play(-1)
         clock = pygame.time.Clock()
         while True:

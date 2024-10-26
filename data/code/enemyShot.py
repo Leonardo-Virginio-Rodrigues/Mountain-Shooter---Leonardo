@@ -1,5 +1,5 @@
-from code.const import ENTITY_SPEED
-from code.entity import Entity
+from data.code.const import ENTITY_SPEED
+from data.code.entity import Entity
 
 
 class EnemyShot(Entity):
