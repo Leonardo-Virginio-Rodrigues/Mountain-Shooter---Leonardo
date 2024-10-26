@@ -15,16 +15,16 @@ The score is saved in the database (SQLite3))
 
 GAME MENU
 
-![Menu](asset/menu.png)
+![Menu](data/asset/menu.png)
 
 GAME LEVEL 1
 
-![Level1](asset/level1.png)
+![Level1](data/asset/level1.png)
 
 GAME LEVEL 2
 
-![Level1](asset/level2.png)
+![Level2](data/asset/level2.png)
 
 GAME LEVEL 3
 
-![Level1](asset/level3.png)
+![Level3](data/asset/level3.png)
