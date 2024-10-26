@@ -40,7 +40,6 @@ ENTITY_DAMAGE = {
     'Enemy2Shot': 30,
     'Enemy3': 2,
     'Enemy3Shot': 40,
-
 }
 
 ENTITY_HEALTH = {
@@ -71,8 +70,8 @@ ENTITY_HEALTH = {
     'Enemy2Shot': 1,
     'Enemy3': 80,
     'Enemy3Shot': 1,
-
 }
+
 
 ENTITY_SPEED = {
     'Level1_bg0': 0,
@@ -183,7 +182,8 @@ SCORE_POS = {'Title': (WIN_WIDTH / 2, 50),
              7: (WIN_WIDTH / 2, 250),
              8: (WIN_WIDTH / 2, 270),
              9: (WIN_WIDTH / 2, 290),
-             }
+}
+
 # T
 TIMEOUT_STEP = 100
 TIMEOUT_LEVEL = {
